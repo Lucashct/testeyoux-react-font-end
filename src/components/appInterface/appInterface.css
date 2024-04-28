@@ -1,0 +1,115 @@
+.interface-container {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.controller-menu {
+  background-color:floralwhite;
+  height: 100%;
+  width: 40%;
+  box-shadow: 1px 1px 8px 1px gainsboro;
+  overflow-y: auto;
+}
+.controller-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+.controller-menu::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+.controller-menu::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 172, 172);
+  border-radius: 20px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.name-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.actions-buttons-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-button {
+  width: 35%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.menu-button:hover {
+  background-color: aliceblue;
+}
+
+.menu-button:focus {
+  background-color: #e6e6e6;
+}
+
+.menu-button:disabled {
+  cursor: not-allowed;
+}
+
+.menu-button:disabled:focus {
+  background-color: white;
+}
+
+.menu-button:disabled:hover {
+  background-color: white;
+}
+
+.pacientes-list {
+  font-size: 13px;
+  box-shadow: 1px 1px 8px 1px gainsboro;
+  margin: 5% auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: snow;
+  overflow-y: auto;
+}
+
+.pacientes-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.pacientes-list::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+.pacientes-list::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 172, 172);
+  border-radius: 20px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.pacientes-node {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.node-item {
+  margin-right: 10px;
+}
+
+.functions-buttons {
+  background-color: transparent;
+  border: 0px;
+}
